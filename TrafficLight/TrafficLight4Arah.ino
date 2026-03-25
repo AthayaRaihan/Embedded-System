@@ -1,7 +1,3 @@
-// C++ code
-//
-
-// struct initiate
 struct traffic { 
   int red;
   int yellow;
@@ -18,22 +14,22 @@ traffic roads[4] = {
 
 void setup()
 {
-  // North
+  
   pinMode(13, OUTPUT);
   pinMode(12, OUTPUT);
   pinMode(11, OUTPUT);
   
-  // East
+
   pinMode(10, OUTPUT);
   pinMode(9, OUTPUT);
   pinMode(8, OUTPUT);
 
-  // South
+  
   pinMode(7, OUTPUT);
   pinMode(6, OUTPUT);
   pinMode(5, OUTPUT);
 
-  // West
+
   pinMode(4, OUTPUT);
   pinMode(3, OUTPUT);
   pinMode(2, OUTPUT);
@@ -92,15 +88,15 @@ void activeRoad (struct traffic R1, struct traffic R2) {
 
 void loop()
 {    
-  // === North Road ===
+  
   activeRoad(roads[0], roads[1]);
   
-  // === East Road ===
+  
   activeRoad(roads[1], roads[2]);
   
-  // === South Road ===
+  
   activeRoad(roads[2], roads[3]);
   
-  // === West Road ===
+  
   activeRoad(roads[3], roads[0]);
 }
