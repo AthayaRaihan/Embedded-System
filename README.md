@@ -13,3 +13,12 @@ https://github.com/user-attachments/assets/55032733-d796-4cd7-8f59-cf26a4feb163
 
 ## Link Tinkercad
 https://www.tinkercad.com/things/2iHa7FPvoSg-pedestrian-traffic-light?sharecode=FyvM03YWhgu0iwtJp62PUL2MoIxLckegIYamGmWcYNA
+
+# RTOS
+
+## Demo RTOS
+https://github.com/user-attachments/assets/f8cf46f7-d185-4a73-bbf9-407ef918adca
+
+## Link Wokwi
+https://wokwi.com/projects/463058139120171009
+
